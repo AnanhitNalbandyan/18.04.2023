@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(https://fresco.wallset.ru/images/detailed/1204/AB307-COL2_%D0%B8%D0%BD%D1%82.jpg);
+
+}
+.user-container{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.interfase{
+
+    width: 80%;
+    height: auto;
+    margin: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user{
+    width: 60%;
+    height: 70%; 
+    font-size: 30px;
+    font-style: italic;
+    color: lightseagreen;
+    border-radius: 60%;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+}
+
+.button{
+    width: 100px;
+    border-radius: 50%;
+    color: rgb(44, 169, 219);
+    background-color: rgb(205, 255, 211);
+    border-style: none;
+    font-size: 20px;
+    font-style: italic;
+}
+

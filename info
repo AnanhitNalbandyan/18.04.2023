@@ -1,0 +1,19 @@
+//npm create vite@latest posts -- --template vanilla
+
+
+export function getCounter(label){
+  let counter = 0
+ return() =>{
+  counter++
+  console.log(label, counter);
+  
+ }
+}
+
+const counter1 = getCounter('name')
+counter1()// console.loge () name:1
+counter1()// console.loge () name:2
+const counter2 = getCounter('counter2')
+counter2()// console.loge () counter2:1
+counter2()// console.loge () counter2:2
+counter2()// console.loge () counter2:3
